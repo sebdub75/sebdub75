@@ -8,6 +8,7 @@ author: SD
 avatar: me/sd.png
 tags:
  - moteurs de recherche
+ - web
 categories:
  - Informatique
 ---
