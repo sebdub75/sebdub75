@@ -2,4 +2,10 @@
 
   
 
-[{"categories":["test"],"description":"\u003cp\u003eCeci est un test des possibilité d\u0026rsquo;Hugo\u003c/p\u003e","tags":["test"],"title":"Test des possibilités d'Hugo","url":"https://sebdub75.github.io/sebdub75/posts/test/"}]
+  
+
+  
+
+  
+
+[{"categories":["Informatique"],"description":"\u003cp\u003eVoici quelques acteurs aptes à transcrire automatiquement des réunions (plusieurs locuteurs) en français :\u003c/p\u003e","tags":["IA"],"title":"Transcription Vocale","url":"https://sebdub75.github.io/sebdub75/posts/transcription-vocale/"},{"categories":["Informatique"],"description":"\u003cp\u003ePour générer un fichier XLSX en C++ (sans nécessité d\u0026rsquo;avoir les produits offices installés), il existe plusieurs bibliothèques disponibles. Il est parfois difficile de s\u0026rsquo;y retrouver car nombres de bibliothèques s\u0026rsquo;avèrent n\u0026rsquo;être plus maintenues.\u003c/p\u003e","tags":["C++"],"title":"Générer des fichiers Excel en C++","url":"https://sebdub75.github.io/sebdub75/posts/excel-c++/"},{"categories":["Informatique"],"description":"\u003cp\u003eGoogle Indexe un site web en deux phases :\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eune indexation purement HTML\u003c/li\u003e\n\u003cli\u003eune indexation à l\u0026rsquo;aide un moteur de rendu (Chrome 41) qui permet de prendre en compte le Javascript.\u003c/li\u003e\n\u003c/ol\u003e","tags":["moteurs de recherche"],"title":"Indexation de Google des sites en Javascript","url":"https://sebdub75.github.io/sebdub75/posts/indexation-google/"},{"categories":["test"],"description":"\u003cp\u003eCeci est un test des possibilité d\u0026rsquo;Hugo\u003c/p\u003e","tags":["test"],"title":"Test des possibilités d'Hugo","url":"https://sebdub75.github.io/sebdub75/posts/test/"}]

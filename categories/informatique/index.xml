@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Site Hugo expérimental</title>
-    <link>https://sebdub75.github.io/sebdub75/</link>
-    <description>Recent content on Site Hugo expérimental</description>
+    <title>Informatique on Site Hugo expérimental</title>
+    <link>https://sebdub75.github.io/sebdub75/categories/informatique/</link>
+    <description>Recent content in Informatique on Site Hugo expérimental</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons Attribution - Utilisation non commerciale&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Le contenu de ce site est concédé sous licence &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution - Utilisation non commerciale&lt;/a&gt;.</copyright>
-    <lastBuildDate>Sat, 08 May 2021 17:24:06 +0200</lastBuildDate><atom:link href="https://sebdub75.github.io/sebdub75/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 May 2021 17:24:06 +0200</lastBuildDate><atom:link href="https://sebdub75.github.io/sebdub75/categories/informatique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Transcription Vocale</title>
       <link>https://sebdub75.github.io/sebdub75/posts/transcription-vocale/</link>
@@ -37,15 +37,6 @@
 &lt;li&gt;une indexation purement HTML&lt;/li&gt;
 &lt;li&gt;une indexation à l&amp;rsquo;aide un moteur de rendu (Chrome 41) qui permet de prendre en compte le Javascript.&lt;/li&gt;
 &lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>Test des possibilités d&#39;Hugo</title>
-      <link>https://sebdub75.github.io/sebdub75/posts/test/</link>
-      <pubDate>Fri, 07 May 2021 18:30:04 +0200</pubDate>
-      
-      <guid>https://sebdub75.github.io/sebdub75/posts/test/</guid>
-      <description>&lt;p&gt;Ceci est un test des possibilité d&amp;rsquo;Hugo&lt;/p&gt;</description>
     </item>
     
   </channel>

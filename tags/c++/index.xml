@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Site Hugo expérimental</title>
+    <link>https://sebdub75.github.io/sebdub75/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Site Hugo expérimental</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons Attribution - Utilisation non commerciale&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Le contenu de ce site est concédé sous licence &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution - Utilisation non commerciale&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 07 May 2021 17:24:06 +0200</lastBuildDate><atom:link href="https://sebdub75.github.io/sebdub75/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Générer des fichiers Excel en C&#43;&#43;</title>
+      <link>https://sebdub75.github.io/sebdub75/posts/excel-c&#43;&#43;/</link>
+      <pubDate>Fri, 07 May 2021 17:24:06 +0200</pubDate>
+      
+      <guid>https://sebdub75.github.io/sebdub75/posts/excel-c&#43;&#43;/</guid>
+      <description>&lt;p&gt;Pour générer un fichier XLSX en C++ (sans nécessité d&amp;rsquo;avoir les produits offices installés), il existe plusieurs bibliothèques disponibles. Il est parfois difficile de s&amp;rsquo;y retrouver car nombres de bibliothèques s&amp;rsquo;avèrent n&amp;rsquo;être plus maintenues.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
