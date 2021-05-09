@@ -82,7 +82,7 @@ hasCJKLanguage = true
   #highlightjsThemeDark = "tomorrow-night"
 
   # search
-  #enableSearch = true
+  enableSearch = true
 
   # options
   showSummaryCoverInPost = true
