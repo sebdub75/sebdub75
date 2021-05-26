@@ -44,7 +44,7 @@
 <link rel="stylesheet" href="https://sebdub75.github.io/sebdub75/css/site.css" />
 
 <style>
-  a:not(.ui.button):hover {
+  .ui.header a:not(.ui.button):hover {
     text-decoration: underline;
   }
 
@@ -93,10 +93,10 @@
 
   <body class="default">
     
-<nav class="ui secondary menu dream-menu">
+<nav class="ui secondary menu dream-menu dream-nav">
 
   <div class="item">
-    <i class="large link bullseye icon dream-flip-toggle" title="Retourne ça!"></i>
+    <i class="large link bullseye icon dream-flip-toggle" title="Retourne ça !"></i>
   </div>
   <div class="item">
     <i class="large link home icon" title="Accueil" onclick="window.location.href = 'https:\/\/sebdub75.github.io\/sebdub75\/'"></i>
@@ -127,7 +127,7 @@
   
 
   <div class="content">
-    <h1 class="ui medium header">Sébastien Dubourg<div class="sub header">Il est plus facile de changer le pansement que de penser le changement.</div>
+    <h1 class="ui medium header">Sébastien Dubourg<span class="sub header">Il est plus facile de changer le pansement que de penser le changement.</span>
     </h1>
 
     <article class="ui horizontal list">
@@ -308,7 +308,7 @@
   
 
   <div class="content">
-    <h1 class="ui medium header">Sébastien Dubourg<div class="sub header">Il est plus facile de changer le pansement que de penser le changement.</div>
+    <h1 class="ui medium header">Sébastien Dubourg<span class="sub header">Il est plus facile de changer le pansement que de penser le changement.</span>
     </h1>
 
     <article class="ui horizontal list">
@@ -479,13 +479,42 @@ publiée sur <a href="https://www.pexels.com/">Pexels</a>.</li>
       </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+    
+    <div class="ui segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="Search" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('https:\/\/sebdub75.github.io\/sebdub75\//index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: false,
+      })
+    })
+  })
+</script>
+<script src="https://sebdub75.github.io/sebdub75/js/search.js"></script>
+
+    
+
     <script>
+  window.background = "#fff"
   window.defaultDark =  null 
   window.backgroundDark =  null 
   window.backgroundImageDark = "/me/background.jpg"
   window.darkNav =  null 
-  window.hasTwitterEmbed =  null 
   window.maxTags =  null 
+  window.hasTwitterEmbed =  null 
+  window.fixedNav =  null 
 
   if (window.hasTwitterEmbed) {
     
@@ -508,8 +537,6 @@ publiée sur <a href="https://www.pexels.com/">Pexels</a>.</li>
     })(document, 'script', 'twitter-wjs')
   }
 </script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/js/jquery.overlayScrollbars.min.js"></script>
 <script src="https://sebdub75.github.io/sebdub75/js/header.js"></script>
 <script src="https://sebdub75.github.io/sebdub75/js/main.js"></script>
@@ -538,30 +565,6 @@ publiée sur <a href="https://www.pexels.com/">Pexels</a>.</li>
 <script src="https://sebdub75.github.io/sebdub75/js/masonry.pkgd.min.js"></script>
 <script src="https://sebdub75.github.io/sebdub75/js/grid.js"></script>
 
-
-    
-    <div class="ui inverted segment" id="dream-search">
-  <div class="ui search">
-    <div class="ui transparent input">
-      <input class="prompt" type="text" placeholder="Search" />
-    </div>
-    <div class="results"></div>
-  </div>
-</div>
-<script>
-  $(document).ready(function () {
-    $.getJSON('https:\/\/sebdub75.github.io\/sebdub75\//index.json', function (data) {
-      $('.ui.search').search({
-        source: data,
-        searchFields: ['title'],
-        showNoResults: true,
-      })
-    })
-  })
-</script>
-<script src="https://sebdub75.github.io/sebdub75/js/search.js"></script>
-
-    
 
     
 
